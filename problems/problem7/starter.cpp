@@ -1,1 +1,21 @@
-// No starter code provided
+#include <iostream>
+#include <string>
+
+void solve() {
+    // --- Input reading ---
+    int n;
+    std::cin >> n;
+
+    // --- Solution ---
+    // The following variables are available:
+    // n: int
+
+    // TODO: Implement the solution
+}
+
+int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+    solve();
+    return 0;
+}

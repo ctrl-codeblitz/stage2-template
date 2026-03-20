@@ -6,12 +6,13 @@ def solve():
   """
   try:
     # --- Input reading ---
-    x, n = map(int, sys.stdin.readline().split())
+    n = int(sys.stdin.readline())
+    nums = list(map(int, sys.stdin.readline().split()))
     
     # --- Solution ---
     # The following variables are available:
-    # x: int
     # n: int
+    # nums: list of ints
     
     # TODO: Implement the solution
     
