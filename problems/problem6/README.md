@@ -15,9 +15,9 @@ A single integer: the 0-based index of target, or -1 if not found
 ## Example
 
 Input:
-5
-1 3 5 7 9
-5
+- 5
+- 1 3 5 7 9
+- 5
 
 Output:
 2
