@@ -14,14 +14,14 @@ Given a set of distinct elements, output all subsets using recursion. Include or
 ## Example
 
 Input:
-2
-a b
+- 2
+- a b
 
 Output:
 
-a
-a b
-b
+- a
+- a b
+- b
 
 ## Constraints
 
