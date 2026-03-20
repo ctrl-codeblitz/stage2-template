@@ -14,8 +14,8 @@ Two integers, space-separated: min and max (min first, then max)
 ## Example
 
 Input:
-4
-3 1 4 2
+- 4
+- 3 1 4 2
 
 Output:
 1 4
