@@ -1,9 +1,31 @@
-Max and min in array — recursive
+# Problem 8 — Max and Min in Array
 
-Stage 2
-Problem: Given an array of integers, find the maximum and minimum elements using recursion (e.g. divide array in half, recurse, combine).
+Given an array of integers, find the maximum and minimum elements using recursion.
 
-Input: first line n, second line n integers
-Output: two integers — min and max, space-separated (min first, then max)
-Example: n=4, array [3 1 4 2] → 1 4
-Time: O(n), Space: O(log n) recursion
+## Input Format
+
+- First line: n (array size)
+- Second line: n integers, space-separated
+
+## Output Format
+
+Two integers, space-separated: min and max (min first, then max)
+
+## Example
+
+Input:
+4
+3 1 4 2
+
+Output:
+1 4
+
+## Constraints
+
+- n ≥ 1
+- Array contains integers
+
+## Expected Complexity
+
+- Time: O(n)
+- Space: O(log n) recursion stack

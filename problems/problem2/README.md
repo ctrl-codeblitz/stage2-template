@@ -1,9 +1,29 @@
-Factorial — recursive
+# Problem 2 — Factorial
 
-Stage 2
-Problem: Implement the factorial function recursively. n! = n * (n-1)! for n ≥ 1, and 0! = 1.
+Implement the factorial function recursively. n! for n ≥ 1, and 0! = 1.
 
-Input: one non-negative integer n
-Output: one integer — n!
-Example: 5 → 120
-Time: O(n), Space: O(n) for recursion stack
+## Input Format
+
+- One non-negative integer n
+
+## Output Format
+
+A single integer: n! (factorial of n)
+
+## Example
+
+Input:
+5
+
+Output:
+120
+
+## Constraints
+
+- n is a non-negative integer
+- Result fits in 64-bit signed range
+
+## Expected Complexity
+
+- Time: O(n)
+- Space: O(n) recursion stack

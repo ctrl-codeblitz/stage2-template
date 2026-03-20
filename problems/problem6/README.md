@@ -1,9 +1,33 @@
-Binary search — recursive
+# Problem 6 — Binary Search
 
-Stage 2
-Problem: Implement binary search on a sorted array recursively. Return the index of target, or -1 if not found.
+Implement binary search on a sorted array recursively. Return the index of the target, or -1 if not found.
 
-Input: first line n (array size), second line n sorted integers, third line target value
-Output: one integer — index of target (0-based) or -1
-Example: n=5, array [1 3 5 7 9], target 5 → 2
-Time: O(log n), Space: O(log n) recursion
+## Input Format
+
+- First line: n (array size)
+- Second line: n sorted integers, space-separated
+- Third line: target value
+
+## Output Format
+
+A single integer: the 0-based index of target, or -1 if not found
+
+## Example
+
+Input:
+5
+1 3 5 7 9
+5
+
+Output:
+2
+
+## Constraints
+
+- Array is sorted in ascending order
+- n ≥ 1
+
+## Expected Complexity
+
+- Time: O(log n)
+- Space: O(log n) recursion stack

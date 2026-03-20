@@ -1,10 +1,28 @@
-Sum of digits — recursive
+# Problem 3 — Sum of Digits
 
-Stage 2
-Problem: Given a non-negative integer (e.g. 1234), compute the sum of its decimal digits using recursion.
-Hint: sum_digits(n) = n % 10 + sum_digits(n / 10), base case when n == 0.
+Given a non-negative integer, compute the sum of its decimal digits using recursion. 
 
-Input: one integer n (e.g. 1234)
-Output: one integer — sum of digits
-Example: 1234 → 10
-Time: O(digits), Space: O(digits) for recursion
+## Input Format
+
+- One non-negative integer n
+
+## Output Format
+
+A single integer: the sum of digits of n
+
+## Example
+
+Input:
+1234
+
+Output:
+10
+
+## Constraints
+
+- n is a non-negative integer
+
+## Expected Complexity
+
+- Time: O(digits)
+- Space: O(digits) recursion stack

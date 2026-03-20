@@ -1,10 +1,28 @@
-Decimal to binary — recursive
+# Problem 7 — Decimal to Binary
 
-Stage 2
-Problem: Convert a non-negative decimal integer to its binary representation using recursion.
-Hint: n in binary = (n/2 in binary) concatenated with (n%2). Base case: 0 → "0".
+Convert a non-negative decimal integer to its binary representation using recursion.
 
-Input: one non-negative integer n
-Output: binary string (e.g. no leading zeros, or with leading zeros for fixed width — state in problem)
-Example: 12 → 1100
-Time: O(log n), Space: O(log n) recursion
+## Input Format
+
+- One non-negative integer n
+
+## Output Format
+
+Binary string representation of n (no leading zeros)
+
+## Example
+
+Input:
+12
+
+Output:
+1100
+
+## Constraints
+
+- n is a non-negative integer
+
+## Expected Complexity
+
+- Time: O(log n)
+- Space: O(log n) recursion stack

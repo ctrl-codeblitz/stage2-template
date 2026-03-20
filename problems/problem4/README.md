@@ -1,10 +1,30 @@
-Power (x^n) — recursive
+# Problem 4 — Power (x^n)
 
-Stage 2
-Problem: Given base x and non-negative integer exponent n, compute x^n recursively.
-Hint: x^n = x * x^(n-1) for n > 0; x^0 = 1. (For efficiency, use x^n = (x^(n/2))^2 when n is even.)
+Given base x and non-negative integer exponent n, compute x^n recursively. 
 
-Input: two integers x and n (one per line or space-separated)
-Output: one integer — x^n (assume result fits in int/long)
-Example: x=2, n=10 → 1024
-Time: O(n) naive or O(log n) with squaring, Space: O(log n) recursion
+## Input Format
+
+- Two integers x and n, separated by whitespace
+- They may appear on the same line or on separate lines
+
+## Output Format
+
+A single integer: x^n
+
+## Example
+
+Input:
+2 10
+
+Output:
+1024
+
+## Constraints
+
+- x and n are integers with n non-negative
+- Result fits in 64-bit signed range
+
+## Expected Complexity
+
+- Time: O(log n) with squaring optimization
+- Space: O(log n) recursion stack

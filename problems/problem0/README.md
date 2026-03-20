@@ -1,9 +1,28 @@
-Palindrome check — recursive
+# Problem 0 — Palindrome Check
 
-Stage 2
-Problem: Determine if a string is a palindrome using recursion. Compare first and last character; if equal, recurse on the inner substring. Ignore case if desired (state in problem).
+Determine if a string is a palindrome using recursion. 
 
-Input: one string (no spaces or single word)
-Output: True or False
-Example: "racecar" → True; "hello" → False
-Time: O(n), Space: O(n) recursion
+## Input Format
+
+- One string (no spaces, single word)
+
+## Output Format
+
+True or False
+
+## Example
+
+Input:
+racecar
+
+Output:
+True
+
+## Constraints
+
+- String contains only alphanumeric characters
+
+## Expected Complexity
+
+- Time: O(n)
+- Space: O(n) recursion stack
